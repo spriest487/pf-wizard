@@ -1,0 +1,27 @@
+<form method="post" action="wizard.php">
+    <table class="table" width="400" cellpadding="4" cellspacing="0">
+        <tr>
+            <td class="table-header">
+            	Select your gender:
+            </td>
+        </tr>
+        <tr>            
+        	<td class="table" align="left" style="vertical-align: middle">
+            <input class="button vertical-middle" type="radio" name="gender" id="gender" value="1" />
+            <label class="body-text vertical-middle" for="gender">Male</label>
+            
+            <input class="button vertical-middle" type="radio" name="gender" id="gender2" value="2" />
+            <label class="body-text vertical-middle" for="gender">Female</label>
+            
+            <input class="button vertical-middle" type="radio" name="gender" id="gender2" value="0" />
+            <label class="body-text vertical-middle" for="gender">Neither</label>
+            </td>
+        </tr>
+    </table>
+    
+    <?php
+    	include 'elements/nav_buttons.php';
+    ?>
+</form>
+
+
