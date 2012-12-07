@@ -1,0 +1,78 @@
+.main-header {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 36px;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: small-caps;
+	color: #FFF;
+}
+	
+.body-text {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	color: #000;
+}
+
+.tiny-text {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 9px;
+	font-style: normal;
+	color: #000;
+}
+
+.error-text {
+	font-family: Verdana, Geneva, sans-serif;
+	font-weight: bold;
+	color: #F00;
+	size: 14px;
+}
+
+.warning-text {
+	font-family: Verdana, Geneva, sans-serif;
+	font-weight: bold;
+	color: #F93;
+	size: 14px;
+}
+
+.value-table {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: bold;
+}
+
+.char-table-row {
+	height: 28px;
+}
+
+.vertical-middle {
+	vertical-align: middle;
+}
+
+.table {
+	border-style: outset;
+	border-color: #000;
+	border-width: thin;
+}
+
+.table-header {
+	background-color: #000;
+	color: #FFF;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: small-caps;
+}
+
+.button {
+	background-color: #000;
+	font-size: 16px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-variant: small-caps;
+	color: #FFF;
+	border-color: #FFF;
+	border-width: thin;
+	height: 26px;
+}
